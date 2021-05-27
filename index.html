@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <!-- Custom CSS & fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/funcoes.js"></script>
+    <title>Travela - Pontos turísticos</title>
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col">
+                <!-- Menu acessibilidade -->
+                <div class="headerAcessibilidade">
+                    <div class="menu-acessibilidade">
+                        <button onclick="location.href='acessibilidade.html'" type="button" class="button-acessibilidade" accesskey="1">
+                            Acessibilidade</button>
+                        <button href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()"
+                            onkeydown="window.toggleContrast()" title="Alto contraste"
+                            class="iconAltocontraste"></button>
+                        <button name="increase-font" id="increase-font" accesskey="4" title="Aumentar fonte"
+                            class="button-aumentarFonte">A+</button>
+                        <button name="decrease-font" id="decrease-font" accesskey="5" title="Diminuir fonte"
+                            class="button-diminuirFonte">A-</button>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="row">
+                    <div class="col">
+                        <header class="header">
+                            <a href="" class="logo"><img src="./images/logo-b.svg" alt="Logo site travela"></a>
+                            <input class="menu-btn" type="checkbox" id="menu-btn" />
+                            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                            <ul class="menu">
+                                <li><a href="#">Hospedagem</a></li>
+                                <li><a href="#">Turismo</a></li>
+                                <li><a href="#">Carros</a></li>
+                                <li><a href="#">Contatos</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <section class="container-hero">
+            <div class="row">
+                <div class="hero-bg">
+                    <div class="hero-content">
+                        <h2>Visite São Paulo</h2>
+                        <p>São 12 milhões de habitantes vivendo na maior cidade do Hemisfério Sul, e é também a terceira
+                            maior cidade das Américas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-conteudo">
+            <div class="row">
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card">
+                            <a href="#bluetree">
+                                <img src="./images/bluetree1.jpg" alt="Imagem do hotel Blue Tree Premium Morumbi"
+                                    class="card-img">
+                            </a>
+                            <div class="card-body">
+                                <p class="title-card">Blue Tree</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="#comfort">
+                                <img src="./images/confortIbirapuera1.jpg" alt="Imagem do hotel Confort Ibirapuera"
+                                    class="card-img">
+                            </a>
+                            <div class="card-body">
+                                <p class="title-card">Comfort Ibirapuera</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="#ibis">
+                                <img src="./images/Ibis2.jpg" alt="Imagem do hotel IBIS Styles São Paulo Anhembi"
+                                    class="card-img">
+                            </a>
+                            <div class="card-body">
+                                <p class="title-card">Ibis Hotel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--modals-->
+        <div id="bluetree" class="modalDialog">
+            <div class="modalBorder">
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Blue Tree</h2>
+                <p>
+                    HLocalizado a 2 minutos de caminhada do Morumbi Shopping, este hotel refinado em um arranha-céu
+                    grandioso também está a 6 km do Aeroporto de Congonhas e a 8 km do Parque Ibirapuera. KM: 9,9km de
+                    distância da Av. Paulista.
+                    <br>
+                    <ul>
+                        <h3>O que está incluso?</h3>
+                        <li>Wi-Fi gratuito</li>
+                        <li>Café da manhã pago </li>
+                        <li>Estacionamento pago </li>
+                        <li>Ar-condicionado </li>
+                        <li>Serviço de lavanderia</li>
+                    </ul>
+                </p>
+                <a href="#">avaliar</a>
+            </div>
+        </div>
+
+        <!--modals-->
+        <div id="comfort" class="modalDialog">
+            <div class="modalBorder">
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Comfort Hotel</h2>
+                <p>
+                    Hotel refinado em um arranha-céu que fica localizado a 12 minutos de caminhada de uma estação de
+                    metrô, a 1 km do Museu de Arte de São Paulo e a 3,7 km do Parque Ibirapuera. Os quartos elegantes e
+                    sofisticados incluem Wi-Fi, TV com tela plana, frigobar, sacada, chaleira e cafeteira. KM: 1,5km de
+                    distância da Av. Paulista.
+                    <br>
+                    <ul>
+                        <h3>O que está incluso?</h3>
+                        <li>Wi-Fi gratuito</li>
+                        <li>Café da manhã pago </li>
+                        <li>Estacionamento pago </li>
+                        <li>Acessível(pessoas com deficiência)</li>
+                        <li>Ar-condicionado </li>
+                        <li>Serviço de lavanderia</li>
+                    </ul>
+                </p>
+                <a href="#">avaliar</a>
+            </div>
+        </div>
+
+        <!--modals-->
+        <div id="ibis" class="modalDialog">
+            <div class="modalBorder">
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Ibis Hotel </h2>
+                <p>Ao lado de uma estação de metrô, este hotel moderno com tema de aviação fica a 3 km da Pinacoteca do
+                    Estado de São Paulo e a 4,4 km do Theatro Municipal de São Paulo. Ao lado de uma estação de metrô,
+                    este hotel moderno com tema de aviação fica a 3 km da Pinacoteca do Estado de São Paulo e a 4,4 km
+                    do Theatro Municipal de São Paulo. KM: 6,9km de distância da Av. Paulista.</p>
+                <ul>
+                    <h3>O que está incluso?</h3>
+                    <li>Wi-Fi gratuito</li>
+                    <li>Café da manhã pago </li>
+                    <li>Estacionamento pago </li>
+                    <li>Acessível(pessoas com deficiência)</li>
+                    <li>Ar-condicionado </li>
+                    <li>Serviço de lavanderia</li>
+                </ul>
+                <a href="#">avaliar</a>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/funcoes.js"></script>
+    <title>Travela - Acessibilidade</title>
+</head>
+
+<body>
+    <header class="headerAcessibilidade">
+        <div class="menu-acessibilidade">
+                <button onclick="location.href='index.html'" type="button" class="button-acessibilidade" accesskey="2">
+                    Página inicial</button>
+            <button href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()"
+                onkeydown="window.toggleContrast()" title="Alto contraste" class="iconAltocontraste"></button>
+            <button name="increase-font" id="increase-font" accesskey="4" title="Aumentar fonte"
+                class="button-aumentarFonte">A+</button>
+            <button name="decrease-font" id="decrease-font" accesskey="5" title="Diminuir fonte"
+                class="button-diminuirFonte">A-</button>
+        </div>
+        <div class="acessibilidade">
+            <h1>Acessibilidade Digital</h1>
+        </div>
+    </header>
+    <main>
+        <div class="conteudo-acessibilidade">
+            <p>Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e portais
+                sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira
+                efetiva com as páginas.</p>
+
+            <p>As diversas barreiras encontradas nos sítios eletrônicos atingem principalmente as pessoas com
+                deficiência. Ao utilizarem a Web e seus recursos, as pessoas com deficiência ou outras limitações,
+                deparam-se com obstáculos que dificultam e, muitas vezes, impossibilitam o acesso aos conteúdos e
+                páginas. No Brasil, segundo o Censo Demográfico do IBGE de 2010, há aproximadamente 45 milhões de
+                pessoas que apresentam pelo menos uma das deficiências investigadas. Esse número representa 23,9% da
+                população brasileira. Um percentual a ser considerado quando discutimos a importância de implementar a
+                acessibilidade nos sítios governamentais..
+            </p>
+            <h1>Funcionalidades em nosso site</h1>
+            <h2>Alto contraste</h2>
+            <p>Alto contraste é uma opção para pessoas com médio ou grande déficit visual. Deixa o fundo da página totalmente preto com as letras em branco, podendo ser associado à troca do tamanho das letras.</p>
+            <h2>Alterar tamanho da fonte</h2>
+            <p>Quando acionado aumenta ou diminue o tamanho da fonte de todo o site, esta opção de acessibilidade é para todas as páginas do site.</p>
+            <h2>Atalhos de acessibilidade</h2>
+            <ul>
+                <li>ALT + 1 = Redireciona o usuaário para a página de acessibilidade</li>
+                <li>ALT + 2 = Redirciona o usuário para a pagina inicial</li>
+                <li>ALT + 3 = Aplica ou retire o alto contraste</li>
+                <li>ALT + 4 = Diminui fonte</li>
+                <li>ALT + 5 = Aumentar fonte</li>
+            </ul>
+        </div>
+    </main>
+</body>
