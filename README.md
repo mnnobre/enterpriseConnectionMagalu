@@ -5,7 +5,7 @@ Visando a acessibilidade digital é a eliminação de barreiras na web. Modo que
 efetiva com as páginas.
 
 <div>
- Aqui você pode ver o resultado do projeto: https://mnnobre.github.io/enterpriseConnectionMagalu/
+ Aqui você pode ver o resultado do projeto: <a href="https://mnnobre.github.io/enterpriseConnectionMagalu/"/>EnterpriseConnectionMagalu</a> 
 </div>
 
 ## Funcionalidades
@@ -34,4 +34,4 @@ ALT + 5 = Aumentar fonte
 
 ## ✒️ Autores
 
-* **Matheus Nobre** - *Trabalho Inicial* - [Mnnobre](https://github.com/mnnobre)
+* **Matheus Nobre** - *Desenvolvedor* - [Mnnobre](https://github.com/mnnobre)
