@@ -1,8 +1,14 @@
-Projeto de conclusão da fase 2 proposto pela Magalu
-Trabalho visando a acessibilidade digital é a eliminação de barreiras na web. Modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira
+# EnterpriseConnectionMagalu
+
+Projeto de conclusão da fase 2 proposto pela Magalu em conjunto com a FIAP
+Visando a acessibilidade digital é a eliminação de barreiras na web. Modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira
 efetiva com as páginas.
 
-Funcionalidades
+<div>
+ Aqui você pode ver o resultado do projeto: https://mnnobre.github.io/enterpriseConnectionMagalu/
+</div>
+
+## Funcionalidades
 
 Alto contraste
 Alto contraste é uma opção para pessoas com médio ou grande déficit visual. Deixa o fundo da página totalmente preto com as letras em branco, 
@@ -20,4 +26,12 @@ ALT + 3 = Aplica ou retire o alto contraste
 ALT + 4 = Diminui fonte
 ALT + 5 = Aumentar fonte
 
+## 🛠️ Construído com
 
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+## ✒️ Autores
+
+* **Matheus Nobre** - *Trabalho Inicial* - [Mnnobre](https://github.com/mnnobre)
